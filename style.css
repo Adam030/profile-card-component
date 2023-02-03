@@ -1,0 +1,54 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: rgba(25,161,173,255);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 45vw bottom 45vh, 55vw 45vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+    overflow: hidden;
+}
+main {
+    width: 23rem;
+}
+.background {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 10rem;
+    border-radius: 10px 10px 0 0;
+}
+.hero, .bottom {
+    background-color: #ffffff;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #eaeaea;
+}
+.hero h2, p {
+    font-size: 18px;
+    font-weight: 500;
+}
+img {
+    border-radius: 50%;
+    border: 5px solid white;
+    transform: translateY(-30%);
+}
+.hero span, p {
+    opacity: 0.5;
+}
+hr {
+    background-color: #eaeaea;
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
